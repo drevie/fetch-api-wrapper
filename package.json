@@ -1,0 +1,48 @@
+{
+  "name": "definitely-typed-fetch-api",
+  "version": "0.0.1",
+  "description": "A Node.js module that provides a typesafe wrapper class around the fetch api that is easily extendable\r ## Installation \r ```sh\r npm install definitely-typed-fetch-api --save\r yarn add definitely-typed-fetch-api\r bower install definitely-typed-fetch-api --save\r ```\r ## Usage\r ### TypeScript\r ```typescript\r import BaseService from './BaseService';\r import { SmoothieOrderResponse, SmoothieOrder } from './smoothieServiceTypes';",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cover": "jest --cover",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drevie/definitely-typed-fetch-api.git"
+  },
+  "keywords": [],
+  "author": "Daniel Revie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drevie/definitely-typed-fetch-api/issues"
+  },
+  "homepage": "https://github.com/drevie/definitely-typed-fetch-api#readme",
+  "devDependencies": {
+    "@types/jest": "^21.1.6",
+    "coveralls": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "jest": "^21.1.1",
+    "ts-jest": "^21.2.2",
+    "typescript": "^2.8.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "dependencies": {},
+  "directories": {
+    "lib": "lib"
+  }
+}
