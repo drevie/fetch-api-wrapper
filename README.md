@@ -1,10 +1,10 @@
-# definitely-typed-fetch-api  &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) [![Build Status](https://travis-ci.org/drevie/definitely-typed-fetch-api.svg?branch=master)](https://travis-ci.org/drevie/definitely-typed-fetch-api)
+# fetch-api-wrapper  &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) [![Build Status](https://travis-ci.org/drevie/fetch-api-wrapper.svg?branch=master)](https://travis-ci.org/drevie/fetch-api-wrapper)
 A Node.js module that provides a typesafe wrapper class around the fetch api that is easily extendable
 ## Installation 
 ```sh
-npm install definitely-typed-fetch-api --save
-yarn add definitely-typed-fetch-api
-bower install definitely-typed-fetch-api --save
+npm install fetch-api-wrapper --save
+yarn add fetch-api-wrapper
+bower install fetch-api-wrapper --save
 ```
 ## Usage
 ### TypeScript
