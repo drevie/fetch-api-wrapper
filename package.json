@@ -1,6 +1,6 @@
 {
   "name": "fetch-api-wrapper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Node.js module that provides a typesafe wrapper class around the fetch api that is easily extendable\r ## Installation \r ```sh\r npm install definitely-typed-fetch-api --save\r yarn add definitely-typed-fetch-api\r bower install definitely-typed-fetch-api --save\r ```\r ## Usage\r ### TypeScript\r ```typescript\r import BaseService from './BaseService';\r import { SmoothieOrderResponse, SmoothieOrder } from './smoothieServiceTypes';",
   "main": "index.js",
   "scripts": {
