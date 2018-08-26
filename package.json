@@ -39,7 +39,8 @@
       "jsx",
       "json",
       "node"
-    ]
+    ],
+    "testPathIgnorePatterns": ["<rootDir>/node_modules/", "<rootDir>/dist/__tests__"]
   },
   "dependencies": {},
   "directories": {

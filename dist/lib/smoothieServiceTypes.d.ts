@@ -10,4 +10,4 @@ interface SmoothieOrderResponse {
     smoothieOrders: SmoothieOrder[];
     orderNumber: number;
 }
-export { fruit, blendStyle, size, SmoothieOrder, SmoothieOrderResponse };
+export { fruit, blendStyle, size, SmoothieOrder, SmoothieOrderResponse, };
